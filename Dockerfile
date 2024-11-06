@@ -29,7 +29,7 @@ COPY --chown=me:me norminette_fmt.py /home/me/.local/bin/norminette_fmt.py
 RUN chmod +x /home/me/.local/bin/norminette_fmt.py
 
 # Adding utilities
-RUN pacman -Sy --noconfirm git git-lfs less openssh docker xclip
+RUN pacman -Sy --noconfirm git git-lfs less openssh docker valgrind xclip
 
 # Adding configurations
 COPY --chown=me:me alacritty.toml /home/me/.config/alacritty/alacritty.toml
