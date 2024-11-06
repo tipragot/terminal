@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Tipr Terminal
+Comment=A terminal with usefull tools
+Icon=mini.xterm
+Exec=/home/unknown/.terminal/launch.sh
+Terminal=false
+Categories=Tools;Terminal

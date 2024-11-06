@@ -1,0 +1,16 @@
+[[language]]
+name = "c"
+auto-format = true
+formatter = { command = "norminette_fmt.py" }
+indent = { tab-width = 4, unit = "\t" }
+language-servers = ["clangd", "norminette-lsp"]
+rulers = [81]
+
+[language-server.norminette-lsp]
+command = "norminette_lsp.py"
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+[language-server.clangd.config]
+fallbackFlags = ["-Wall", "-Werror", "-Wextra"]

@@ -1,0 +1,19 @@
+theme = "catppuccin_mocha"
+
+[editor]
+completion-timeout = 5
+middle-click-paste = true
+auto-completion = true
+auto-format = true
+true-color = true
+cursorline = true
+
+[editor.indent-guides]
+render = true
+character = "┆"
+skip-levels = 1
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
