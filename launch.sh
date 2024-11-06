@@ -10,4 +10,4 @@ docker run --rm \
 	-v "$HOME/.terminal/fish:/home/me/.local/share/fish" \
 	-v "$HOME/.terminal/zoxide:/home/me/.local/share/zoxide" \
 	-v "$HOME/.terminal/projects:/home/me/projects" \
-	tipr.fr/terminal
+	terminal:latest

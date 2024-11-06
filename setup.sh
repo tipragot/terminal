@@ -1,6 +1,7 @@
 #!/bin/bash
 
-docker build -t tipr.fr/terminal .
+docker build -t terminal:latest .
+docker image prune -f
 
 if [ ! -d "$HOME/.terminal" ]; then
     mkdir "$HOME/.terminal"
