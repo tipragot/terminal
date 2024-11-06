@@ -4,6 +4,7 @@ auto-format = true
 formatter = { command = "norminette_fmt.py" }
 indent = { tab-width = 4, unit = "\t" }
 language-servers = ["clangd", "norminette-lsp"]
+file-types = ["c", "h"]
 rulers = [81]
 
 [language-server.norminette-lsp]
