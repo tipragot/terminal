@@ -9,4 +9,8 @@ sudo chown me:me /home/me/projects
 git config --global user.name $LOGIN
 git config --global user.email "$LOGIN@student.42nice.fr"
 
-/bin/alacritty
+if [ -n "$TERMINAL" ]; then
+    /bin/zellij
+else
+    /bin/alacritty
+fi
